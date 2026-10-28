@@ -1,0 +1,17 @@
+{
+  "name": "fieldservice-streaming-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types test/dispatch_decision.test.ts",
+    "start": "node --experimental-strip-types src/fieldservice_stream.ts"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
